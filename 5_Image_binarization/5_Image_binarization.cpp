@@ -7,7 +7,7 @@
 using namespace cv;
 int main()
 {
-	//读取本地的一张图片，将图像二值化，并显示出来
+	//读取本地的一张图片，将图像二值化，并显示出来!
 	cv::Mat srcMat = imread("C:/Users/lenovo/Desktop/推文/1.jpg");
 	int height = srcMat.rows; //行数
 	int width = srcMat.cols; //每行元素的总元素数量
